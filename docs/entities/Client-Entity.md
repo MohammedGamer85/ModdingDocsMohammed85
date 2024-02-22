@@ -187,7 +187,30 @@ Provides a beacon on a village entity
 
 | Type| Name| Default Value| Description |
 |:-----------:|:-----------:|:-----------:|:-----------:|
-| List| states| | A list of beacon states this entity can have. By default the first state is active.<br/><h5><p id="beacon_color">beacon_color</p></h5>Base color to be multiplied onto the beacon texture</br><br><h5><p id="beacon_width">beacon_width</p></h5>Width of Beacon </br><br><h5><p id="emissive_scale">emissive_scale</p></h5>Flat value to scale the emissiveness of the beacon - Default is tuned for near camera beacons</br><br><h5><p id="max_distance">max_distance</p></h5>Maximum distance after this beacon is no longer rendered</br><br><h5><p id="meta_material">meta_material</p></h5>Meta material name used to render beacon</br><br><h5><p id="min_distance">min_distance</p></h5>Minimum distance before this beacon is no longer rendered</br><br> |
+| List| states| | A list of beacon states this entity can have. By default the first state is active.
+beacon_color:
+
+Base color to be multiplied onto the beacon texture
+
+beacon_width:
+
+Width of Beacon
+
+emissive_scale:
+
+Flat value to scale the emissiveness of the beacon - Default is tuned for near camera beacons
+
+max_distance:
+
+Maximum distance after this beacon is no longer rendered
+
+meta_material:
+
+Meta material name used to render beacon
+s
+min_distance:
+
+Minimum distance before this beaco|
 
 ### badger:block_source_cull_distance_override
 
